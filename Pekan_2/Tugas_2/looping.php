@@ -96,32 +96,40 @@
 
         $asosiatif_item = array(
             array(
-                "id" => "Will Byers",
-                "name" => 12,
-                "price" => "Will the Wise",
-                "Status" => "Alive"
+                "id" => "001",
+                "name" => "keyboard Logitek",
+                "price" => 60000,
+                "description" => "Keyboard yang mantap untuk kantoran",
+                "sourcce" =>"logite.jpeg"
             ),
             array(
-               "id" => "Mike Wheeler",
-                "name" => 12,
-                "price" => "Dugeon Master",
-                "description" => "Alive"
+               "id" => "002",
+                "name" => "Keyboard MSI",
+                "price" => 300000,
+                "description" => "Keyboard gaming MSI mekanik",
+                "sourcce" =>"MSI.jpg"
             ),
             array(
-                "id" => "Jim Hooper",
-                "name" => 48,
-                "price" => "Chief Hopper",
-                "description" => "Deceased"
+                "id" => "003",
+                "name" => "Mouse Genius",
+                "price" => 50000,
+                "description" => "Mouse Genius biar lebih pinter",
+                "sourcce" =>"genius.png"
             ),
             array(
-                "id" => "Eleven",
-                "name" => 12,
-                "price" => "El",
-                "description" => "Alive"
-            )  
+                "id" => "004",
+                "name" => "Mouse Jerry",
+                "price" => 30000,
+                "description" => "Mouse yang disukai kucing",
+                "sourcce" =>"jerry.jpg"
+                )  
         );
         
         // Output: 
+       for ($i=0; $i < 4; $i++) { 
+           print_r($asosiatif_item[$i]);
+           echo"<br>";
+       }
         
         echo "<h3>Soal No 4 Asterix </h3>";
         /* 
