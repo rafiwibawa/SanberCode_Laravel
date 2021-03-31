@@ -79,23 +79,23 @@
 
         // Code function di sini
         function palindrome($kata){
-            $hasil =true;
-            $z=strlen($kata);
+            $hasil ="true";
+            $k=0;
             for($i=strlen($kata)-1; $i >=0 ; $i--) { 
                 
-                // if($kata[$i] != $kata[$z]){
-                //     $hasil = false;
-                // }
-                echo $kata[$z];
-                $z--;
+                if($kata[$i] != $kata[$k]){
+                    $hasil = "false";
+                }
+                echo $kata[$k];
+                $k++;
             }
-            echo "Kata palindrome : ".$kata.$hasil."<br>";
+            echo "<br>Kata palindrome : ".$kata." hasil ".$hasil."<br>".false;
         }
         // Hapus komentar di bawah ini untuk jalankan code
         palindrome("civic") ; // true
-        // palindrome("nababan") ; // true
-        // palindrome("jambaban"); // false
-        // palindrome("racecar"); // true
+        palindrome("nababan") ; // true
+        palindrome("jambaban"); // false
+        palindrome("racecar"); // true
     ?>
 </body>
 </html>
