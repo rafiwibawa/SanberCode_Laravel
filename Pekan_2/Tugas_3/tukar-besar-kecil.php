@@ -1,6 +1,6 @@
 <?php
 function tukar_besar_kecil($string){
-    echo $string." : ";
+    echo $string." :    ";
     for ($i=0; $i < strlen($string); $i++) { 
         if (ctype_upper($string[$i])) {
            echo strtolower($string[$i]);
