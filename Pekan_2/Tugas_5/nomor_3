@@ -1,0 +1,8 @@
+insert into users(name,email,password) values("John Doe","john@doe.com","john123");
+insert into users(name,email,password) values("Jane Doe","jane@doe.com","jenita123");
+
+insert into categories(name) values ("gadget"),("cloth"),("men"),("women"),("branded");
+
+insert into items(name, description, price, stock, category_id) values("Sumsang b50","hape keren dari merek sumsang",4000000,100,1);
+insert into items(name, description, price, stock, category_id) values("Uniklooh","baju keren dari brand ternama",500000,50,2);
+insert into items(name, description, price, stock, category_id) values("IMHO Watch","jam tangan anak yang jujur banget",2000000,10,1);

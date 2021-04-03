@@ -1,0 +1,8 @@
+Soal 4.
+a. select id,name,email from users;
+
+b. select * from items where price >= 1000000;
+   select * from items where name like 'uniklo%';
+
+c.  select items.name,items.description,items.price,items.stock,items.category_id,categories.name as kategori from items inner join categories on items.category_id=categories.id;
+
