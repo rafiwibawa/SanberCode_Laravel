@@ -1,0 +1,1 @@
+update items set price=2500000 where id=1;

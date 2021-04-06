@@ -11,7 +11,8 @@ create table items(
     description varchar(255),
     price int(11),
     stock int(11),
-    category_id int(11) FOREIGN KEY REFERENCES categories(id)
+    category_id int(11),
+    FOREIGN KEY(category_id) REFERENCES categories(id)
 );
 
 create table categories(
