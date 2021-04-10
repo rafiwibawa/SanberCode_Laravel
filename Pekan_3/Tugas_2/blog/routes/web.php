@@ -11,6 +11,7 @@
 |
 */
 
+Route::get('/', 'CastController@index');
 Route::get('/cast', 'CastController@index');
 Route::post('/cast', 'CastController@store');
 Route::get('/cast/{cast_id}', 'CastController@show');
