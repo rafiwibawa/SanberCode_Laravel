@@ -11,7 +11,9 @@
 |
 */
 
-Route::get('/', 'HomeController@home');
-Route::get('/register', 'AuthController@register');
-Route::post('/welcome', 'AuthController@welcome');
-
+Route::get('/cast', 'CastController@index');
+Route::post('/cast', 'CastController@store');
+Route::get('/cast/{cast_id}', 'CastController@show');
+Route::get('/cast/{cast_id}/edit', 'CastController@edit');
+Route::put('/cast/{cast_id}', 'CastController@update');
+Route::delete('/cast/{cast_id}', 'CastController@destroy');
